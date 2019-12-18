@@ -1,0 +1,19 @@
+{
+  "name": "@vparth/obj-mapper",
+  "version": "1.0.6",
+  "license": "MIT",
+  "description": "Tool for map one object structure into other",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "jest-each": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --strict"
+  }
+}

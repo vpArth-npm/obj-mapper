@@ -1,0 +1,10 @@
+# .gitignore
+coverage/
+/.idea/
+*.log
+
+# npm
+src
+tsconfig.json
+jest.config.js
+yarn.lock
