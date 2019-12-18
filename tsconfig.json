@@ -3,7 +3,8 @@
     "module": "commonjs",
     "target": "es5",
     "lib": [
-      "es7"
+      "es7",
+      "es2017"
     ],
     "declaration": true,
     "outDir": "./build"

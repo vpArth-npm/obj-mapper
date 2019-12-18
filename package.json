@@ -1,6 +1,6 @@
 {
   "name": "@vparth/obj-mapper",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Tool for map one object structure into other",
   "main": "build/index.js",
@@ -15,5 +15,8 @@
   "scripts": {
     "test": "jest",
     "build": "tsc --strict"
+  },
+  "dependencies": {
+    "@vparth/obj-path": "^1.0.1"
   }
 }
