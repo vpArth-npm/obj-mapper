@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "license": "MIT",
   "description": "Tool for map one object structure into other",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vpArth-npm/obj-mapper.git"
+  },
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "devDependencies": {
