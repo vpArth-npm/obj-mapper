@@ -1,6 +1,6 @@
 import { ObjPath } from '@vparth/obj-path';
 import each from 'jest-each';
-import { ObjMapper } from './service';
+import ObjMapper from '.';
 
 describe('ObjMapper', () => {
   let svc: ObjMapper;
