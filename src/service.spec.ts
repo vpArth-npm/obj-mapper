@@ -20,6 +20,7 @@ describe('ObjMapper', () => {
     [{A: {$type: 'array', array: ''}}, [7, 8], {A: [7, 8]}],
     [{A: {$type: 'array', array: 'x'}}, {x: [7, 8]}, {A: [7, 8]}],
     [{A: {$type: 'date'}}, new Date('2019-03-17'), {A: '2019-03-17'}],
+    [{A: {$type: 'date'}}, null, {A: null}],
     [{A: {$type: 'date', format: 'd.m.Y'}}, new Date('2019-03-17'), {A: '17.03.2019'}],
     [{A: {$type: 'date', fromFormat: 'd.m.Y'}}, '17.03.2019', {A: '2019-03-17'}],
     [{A: {$type: 'date', format: 'd.m.Y'}}, {date: '2019-03-17'}, {A: '17.03.2019'}],
