@@ -61,6 +61,10 @@ export class ObjMapper {
     const $format = $field.format || DEFAULT_DATE_FORMAT;
     let $value    = this.get($field.key || '', $source);
 
+    if ($value === null) {
+      return $value;
+    }
+
     if ($value.date) {
       $value = $value.date;
     }
